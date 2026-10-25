@@ -1,0 +1,28 @@
+@host = http://localhost:5025
+
+### Categorías
+GET {{host}}/api/v1/categorias
+
+###
+POST {{host}}/api/v1/categorias
+Content-Type: application/json
+
+{ "nombre": "Bebidas", "descripcion": "Gaseosas, jugos y agua" }
+
+### Productos
+GET {{host}}/api/v1/productos
+
+###
+POST {{host}}/api/v1/productos
+Content-Type: application/json
+
+{ "nombre": "Coca Cola 2L", "precio": 12.50, "stock": 40, "categoriaId": 1 }
+
+###
+PUT {{host}}/api/v1/productos/1
+Content-Type: application/json
+
+{ "nombre": "Coca Cola 2L", "precio": 13.00, "stock": 35, "categoriaId": 1 }
+
+###
+DELETE {{host}}/api/v1/productos/1

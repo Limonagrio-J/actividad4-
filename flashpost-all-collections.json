@@ -1,0 +1,1118 @@
+{
+  "app": "Flashpost",
+  "version": "1.0",
+  "type": "all-collections",
+  "exportedDate": "25-Oct-2026 06:29:22",
+  "collections": [
+    {
+      "id": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "parent": "0",
+      "text": "apiLimon",
+      "createdTime": "25-Oct-2026 06:16:38",
+      "droppable": true,
+      "relativeIndex": 0,
+      "data": {
+        "treeNodeType": "collection",
+        "variableId": ""
+      }
+    },
+    {
+      "id": "b471119f-1043-48ef-baf9-3d9fca5b08f3",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/categorias",
+      "createdTime": "25-Oct-2026 06:17:11",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "6f762038-d2f1-4646-9802-8b0e490ce4c2",
+        "method": "get",
+        "name": "http://localhost:5025/api/v1/categorias",
+        "url": "http://localhost:5025/api/v1/categorias",
+        "createdTime": "25-Oct-2026 06:17:11",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "4aec39f5-a0bb-4479-a85a-6ff137eeb59e",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/categorias",
+      "createdTime": "25-Oct-2026 06:20:57",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "8c8217ba-81c4-4d48-925e-43e9b6ae3f70",
+        "method": "post",
+        "name": "http://localhost:5025/api/v1/categorias",
+        "url": "http://localhost:5025/api/v1/categorias",
+        "createdTime": "25-Oct-2026 06:20:57",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "4098e66d-9d35-412e-b782-48b95e621f40",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/categorias/1",
+      "createdTime": "25-Oct-2026 06:21:25",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "eef2d434-0bdb-4246-a7c0-ce3bb06a2c85",
+        "method": "get",
+        "name": "http://localhost:5025/api/v1/categorias/1",
+        "url": "http://localhost:5025/api/v1/categorias/1",
+        "createdTime": "25-Oct-2026 06:21:25",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "0453b692-3a66-4511-aea5-c95c89b20fe8",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/categorias/1",
+      "createdTime": "25-Oct-2026 06:22:33",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "1e6da9e3-1b0f-410b-b5e2-44859a4fd23b",
+        "method": "put",
+        "name": "http://localhost:5025/api/v1/categorias/1",
+        "url": "http://localhost:5025/api/v1/categorias/1",
+        "createdTime": "25-Oct-2026 06:22:33",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "6555e6ac-e3fb-4a02-b1ca-0b44ea00bd03",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/productos",
+      "createdTime": "25-Oct-2026 06:23:00",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "5a17f25e-b152-4fc7-9784-16adced30575",
+        "method": "get",
+        "name": "http://localhost:5025/api/v1/productos",
+        "url": "http://localhost:5025/api/v1/productos",
+        "createdTime": "25-Oct-2026 06:23:00",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "5b7c9b08-8388-420f-82cf-f035153391c2",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/productos",
+      "createdTime": "25-Oct-2026 06:23:11",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "5cf6e634-a21e-47ec-a33c-78af98e9db9b",
+        "method": "post",
+        "name": "http://localhost:5025/api/v1/productos",
+        "url": "http://localhost:5025/api/v1/productos",
+        "createdTime": "25-Oct-2026 06:23:11",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "83033691-a345-4ee4-bfd7-af76f6b24081",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/productos/1",
+      "createdTime": "25-Oct-2026 06:23:24",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "2066902e-9d50-477a-82f8-4fbd62a9ef2e",
+        "method": "get",
+        "name": "http://localhost:5025/api/v1/productos/1",
+        "url": "http://localhost:5025/api/v1/productos/1",
+        "createdTime": "25-Oct-2026 06:23:24",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "7288e6b5-869b-49af-bb40-e152eb314655",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/productos/1",
+      "createdTime": "25-Oct-2026 06:23:39",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "6da36d18-0eab-4bd5-bdd1-fb3555b50891",
+        "method": "put",
+        "name": "http://localhost:5025/api/v1/productos/1",
+        "url": "http://localhost:5025/api/v1/productos/1",
+        "createdTime": "25-Oct-2026 06:23:39",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "d6e3ff67-be98-4a8e-9835-774ac809f972",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/categorias/1",
+      "createdTime": "25-Oct-2026 06:26:03",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "44186d36-52ac-4ff1-a61d-7581dc2ddda0",
+        "method": "delete",
+        "name": "http://localhost:5025/api/v1/categorias/1",
+        "url": "http://localhost:5025/api/v1/categorias/1",
+        "createdTime": "25-Oct-2026 06:26:03",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "bf68fa25-8fc1-4068-9ee8-ad656cfb94a7",
+      "parent": "fdbfa82c-397d-448c-82d4-aa3f2cf40c70",
+      "text": "http://localhost:5025/api/v1/productos/1",
+      "createdTime": "25-Oct-2026 06:26:16",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "4c2d1d8c-b38b-44df-b993-d602cd82efdb",
+        "method": "delete",
+        "name": "http://localhost:5025/api/v1/productos/1",
+        "url": "http://localhost:5025/api/v1/productos/1",
+        "createdTime": "25-Oct-2026 06:26:16",
+        "treeNodeType": "request"
+      }
+    }
+  ],
+  "requests": [
+    {
+      "id": "b471119f-1043-48ef-baf9-3d9fca5b08f3",
+      "name": "http://localhost:5025/api/v1/categorias",
+      "url": "http://localhost:5025/api/v1/categorias",
+      "method": "get",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": true,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "4aec39f5-a0bb-4479-a85a-6ff137eeb59e",
+      "name": "http://localhost:5025/api/v1/categorias",
+      "url": "http://localhost:5025/api/v1/categorias",
+      "method": "post",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\"nombre\":\"Bebidas\",\"descripcion\":\"Gaseosas y jugos\"}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "4098e66d-9d35-412e-b782-48b95e621f40",
+      "name": "http://localhost:5025/api/v1/categorias/1",
+      "url": "http://localhost:5025/api/v1/categorias/1",
+      "method": "get",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "0453b692-3a66-4511-aea5-c95c89b20fe8",
+      "name": "http://localhost:5025/api/v1/categorias/1",
+      "url": "http://localhost:5025/api/v1/categorias/1",
+      "method": "put",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\"nombre\":\"Bebidas frías\",\"descripcion\":\"Gaseosas y jugos\"}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "6555e6ac-e3fb-4a02-b1ca-0b44ea00bd03",
+      "name": "http://localhost:5025/api/v1/productos",
+      "url": "http://localhost:5025/api/v1/productos",
+      "method": "get",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "5b7c9b08-8388-420f-82cf-f035153391c2",
+      "name": "http://localhost:5025/api/v1/productos",
+      "url": "http://localhost:5025/api/v1/productos",
+      "method": "post",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\"nombre\":\"Coca Cola 2L\",\"precio\":12.5,\"stock\":40,\"categoriaId\":1}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "83033691-a345-4ee4-bfd7-af76f6b24081",
+      "name": "http://localhost:5025/api/v1/productos/1",
+      "url": "http://localhost:5025/api/v1/productos/1",
+      "method": "get",
+      "createdTime": "",
+      "selectedEnvironmentId": "",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "7288e6b5-869b-49af-bb40-e152eb314655",
+      "name": "http://localhost:5025/api/v1/productos/1",
+      "url": "http://localhost:5025/api/v1/productos/1",
+      "method": "put",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\"nombre\":\"Coca Cola 2L\",\"precio\":13,\"stock\":35,\"categoriaId\":1}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "d6e3ff67-be98-4a8e-9835-774ac809f972",
+      "name": "http://localhost:5025/api/v1/categorias/1",
+      "url": "http://localhost:5025/api/v1/categorias/1",
+      "method": "delete",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "bf68fa25-8fc1-4068-9ee8-ad656cfb94a7",
+      "name": "http://localhost:5025/api/v1/productos/1",
+      "url": "http://localhost:5025/api/v1/productos/1",
+      "method": "delete",
+      "createdTime": "",
+      "selectedEnvironmentId": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    }
+  ],
+  "variables": [
+    {
+      "id": "0d9c3e0a-3316-4e95-90d5-0401c1698500",
+      "name": "Global",
+      "createdTime": "21-Oct-2026 19:29:39",
+      "isActive": false,
+      "data": []
+    },
+    {
+      "id": "929fd749-ef4a-42ea-a383-ac060d873510",
+      "name": "Application",
+      "createdTime": "21-Oct-2026 19:29:39",
+      "isActive": true,
+      "data": []
+    }
+  ]
+}
